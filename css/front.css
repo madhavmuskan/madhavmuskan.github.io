@@ -19,6 +19,7 @@ body {
     left: 0;
 }
 #avatar {
+    height: 70px;
     border: 5px solid white;
     margin-bottom: 40px;
 }
