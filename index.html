@@ -31,10 +31,10 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
-                    {% if site.github_username %}
-                    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
+                    {% if site.email %}
+                    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
                     {% endif %}
-
+                    
                     {% if site.facebook_username %}
                     <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/{{ site.facebook_username }}"><span class="description">Facebook</span></a></li>
                     {% endif %}
@@ -46,7 +46,15 @@ permalink: /
                     {% if site.google_plus_username %}
                     <li><a class="fa fa-2x fa-google-plus" href="https://plus.google.com/+{{ site.google_plus_username }}"><span class="description">Google +</span></a></li>
                     {% endif %}
-
+                    
+                    {% if site.maps_location %}
+                    <li><a class="fa fa-2x fa-map-marker" href="https://maps.google.com/place/{{ site.maps_location }}"><span class="description">Google Maps Location</span></a></li>
+                    {% endif %}
+                    
+                    {% if site.website_location %}
+                    <li><a class="fa fa-2x fa-link" href="https://www.madhavmuskan.com"><span class="description">Madhav Muskan Website</span></a></li>
+                    {% endif %}
+                    
                     {% if site.linkedin_username %}
                     <li><a class="fa fa-2x fa-linkedin" href="https://linkedin.com/in/{{ site.linkedin_username }}"><span class="description">LinkedIn</span></a></li>
                     {% endif %}
@@ -66,9 +74,9 @@ permalink: /
                     {% if site.tumblr_username %}
                     <li><a class="fa fa-2x fa-tumblr" href="https://{{ site.tumblr_username }}.tumblr.com/"><span class="description">Tumblr</span></a></li>
                     {% endif %}
-
-                    {% if site.email %}
-                    <li><a class="fa fa-2x fa-envelope" href="mailto:{{ site.email }}"><span class="description">Email</span></a></li>
+                    
+                    {% if site.github_username %}
+                    <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
 
                 </ul>
