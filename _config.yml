@@ -1,4 +1,9 @@
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 # Site settings
+title: Madhav Muskan Residency
 name: Bask in the warmth of Braj Bhumi.
 description: "The Madhav Muskan Residency Awaits You."
 url: "http://www.madhavmuskan.com"
@@ -51,6 +56,3 @@ favicon_img_path: "favicon.ico"
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-gems:
-  - jekyll-seo-tag
